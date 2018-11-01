@@ -1,0 +1,45 @@
+# images from Lorem Picsum
+logo_top:    "https://picsum.photos/141/17"
+hero_img:    "https://picsum.photos/233/186"
+
+src: &src/130/130 "https://picsum.photos/130/130"
+
+set_0:
+  - image:     *src/130/130
+  - image:     *src/130/130
+  - image:     *src/130/130
+
+set_1:
+-
+   image:    *src/130/130
+   name:     "John Deere"
+   text:     "Lorem ipsum dolor sit amet consectetur adipisicing elit."
+   spacer:   "<spacer size='25'></spacer>"
+
+-
+   image:    *src/130/130
+   name:     "Annie Johns"
+   text:     "Odio magnam dolorum accusantium expedita sint fugit saepe non error!"
+   spacer:   "<spacer size='10'></spacer>"
+
+-
+   image:    *src/130/130
+   name:     "Debie Deere"
+   text:     "Odio magnam dolorum accusantium expedita sint fugit saepe non error!"
+   spacer:   "<spacer size='10'></spacer>"
+
+src_1: &src/28/27 "https://picsum.photos/28/27"
+
+set_2:
+ -
+   image:    *src/28/27
+   alt:      "facebook"
+ -
+   image:    *src/28/27
+   alt:      "twitter"
+ -
+   image:    *src/28/27
+   alt:      "pinterest"
+ -
+   image:    *src/28/27
+   alt:      "rss"

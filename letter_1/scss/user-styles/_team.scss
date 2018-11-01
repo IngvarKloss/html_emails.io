@@ -1,0 +1,49 @@
+table.body {
+  & .team {
+    background: $user-white_1;
+
+    & img {
+      @include circled;
+    }
+
+    & .title,
+    & .title_2 {
+      color: $user-gray;
+    }
+
+    & .title {
+      font-size: $hero-h1-fz;
+      text-transform: uppercase;
+    }
+
+    & .title_2 {
+      font-size: $hero-btn-fz;
+      font-weight: 600;
+      text-transform: capitalize;
+    }
+
+    & .text,
+    & .text_2 {
+      color: $user-gray_1;
+      font-size: $main-fz;
+      line-height: 20px;
+    }
+    
+    & .text_2 {
+      line-height: 15px;
+      // min-height: 45px;
+    }
+    @media (max-width: 596px) {
+      & .text_2 {
+      min-height: auto;
+      }
+    }
+
+    & .button {
+      & a {
+        padding-top: 5px;
+        padding-bottom: 5px;
+      }
+    }
+  }
+}

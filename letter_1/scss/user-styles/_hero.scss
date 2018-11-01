@@ -1,0 +1,37 @@
+table.body {
+  & .hero {
+    background: $user-white_1;
+
+    & .section {
+      width: 95%;
+      margin-left: auto;
+      margin-right: auto;
+      & .hero-h1_1 {
+        color: $hero-h1;
+        font-size: $hero-h1-fz;
+      }
+
+      & .hero-h1_2 {
+        color: $hero-h1_2;
+        font-size: $hero-h1-fz;
+      }
+
+      & .text {
+        color: $hero-p;
+        font-size: $main-fz;
+        line-height: 20px;
+      }
+
+      & .link {
+        border-width: 1px;
+        border-style: solid;
+        border-color: $hero-btn;
+        color: $hero-btn;
+        border-radius: 6px;
+        font-size: $hero-btn-fz;
+        padding: 5px 10px;
+        mso-padding-alt: 5px 10px;
+      }
+    }
+  }
+}

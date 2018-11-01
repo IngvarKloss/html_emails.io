@@ -1,0 +1,18 @@
+@mixin clear {
+  padding: 0;
+  line-height: 1;
+  margin: 0;
+  Margin: 0;
+}
+
+h1,
+h2,
+h3,
+p,
+table.button {
+  @include clear;
+}
+
+@mixin circled {
+  border-radius: 50%;
+}

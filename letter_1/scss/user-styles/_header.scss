@@ -1,0 +1,39 @@
+table.body {
+  & .pre-header {
+    background-color: $user-white;
+
+    .text-wrap {
+      line-height: 10px;
+    }
+
+    & .link,
+    & .text {
+      color: $user-gray_1;
+      font-size: $header-fz;
+    }
+
+    & .link {
+      text-decoration: underline;
+    }
+  }
+
+  & .nav {
+    background-color: $user-gray;
+
+    & .image {
+      width: 141px;
+      height: 17px;
+      vertical-align: bottom;
+    }
+
+    & .menu-item {
+      & .active {
+        color: $header-menu-active;
+      }
+
+    & a {
+        font-size: 12px;
+      }
+    }
+  }
+}

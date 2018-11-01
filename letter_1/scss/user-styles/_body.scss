@@ -1,0 +1,32 @@
+table.body {
+  & .main {
+    background-color: $user-gray_1;
+
+    & .title {
+      color: $user-white;
+      font-size: $hero-h1-fz;
+      text-transform: uppercase;
+    }
+
+    & img {
+        @include circled;
+    }
+
+    & .text {
+      color: $user-white;
+      font-size: $main-fz;
+      line-height: 20px;
+    }
+
+    & .link {
+      border-width: 1px;
+      border-style: solid;
+      border-color: $user-white;
+      color: $user-white;
+      font-size: $main-fz;
+      border-radius: 6px;
+      padding: 5px 10px;
+      mso-padding-alt: 5px 10px;
+    }
+  }
+}

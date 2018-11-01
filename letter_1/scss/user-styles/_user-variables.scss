@@ -1,0 +1,32 @@
+$global-padding: 0;
+
+// user's_colors
+// backgrounds
+$user-white: #ffffff;
+$user-white_1: #f6f6f6;
+$user-gray: #58616a;
+$user-gray_1: #95a5a5; //header-font too
+
+$body-background: $user-white ;
+$container-background: $user-white_1;
+$primary-color: $user-gray_1;
+
+//font-colors
+$header: $user-gray_1;
+$header-menu-active: #aacdc4;
+$header-menu: #cdd2d8;
+$hero-h1: #555e68;
+$hero-h1_2: #77838f;
+$hero-p: #7d8892;
+$hero-btn: #787f86; //hero-border too
+
+//font-sizes
+$header-fz: 11px;
+$main-fz: 12px; //hero-p
+$hero-h1-fz: 20px;
+$hero-btn-fz: 14px;
+$footer-fz: 10px;
+
+//menu-item
+$menu-item-padding: 0;
+$menu-item-gutter: 25px;

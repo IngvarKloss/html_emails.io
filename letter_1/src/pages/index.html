@@ -1,0 +1,31 @@
+<container class='main'>
+  <spacer size='30'></spacer>
+  <row>
+    <columns>
+      <h1 class="title text-center">Look at the projects</h1>
+    </columns>
+  </row>
+  <spacer size='30'></spacer>
+  <row>
+    {{#each global.set_0}}
+    <columns>
+      <center>
+
+        <img src="{{image}}" alt="some_person's-photo">
+        </center>
+        <spacer size='10'></spacer>
+    </columns>
+    {{/each}}
+  </row>
+  <spacer size='10'></spacer>
+  <row><columns><p class='text-center text'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex sunt ducimus harum eum, est blanditiis qui dignissimos omnis velit repellat eaque pariatur error soluta quaerat neque nemo laborum consectetur. Tempora.</p></columns></row>
+  <spacer size='15'></spacer>
+  <row>
+    <columns>
+      <center>
+        <p class='text-center'><a class='link' href="#">View More</a></p>
+      </center>
+    </columns>
+  </row>
+  <spacer size='25'></spacer>
+</container>

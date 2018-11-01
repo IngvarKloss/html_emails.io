@@ -1,0 +1,22 @@
+table.body {
+  & .social_icons {
+    background: $user-gray;
+
+    & .si_wrapper {
+    width: auto;
+    }
+
+    & img {
+      width: 28px;
+      height: 27px;
+      @include circled;
+    }
+  }
+
+  & .sub-footer {
+    & .text {
+      font-size: $footer-fz;
+      color: $user-gray_1;
+    }
+  }
+}

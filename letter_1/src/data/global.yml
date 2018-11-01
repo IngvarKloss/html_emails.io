@@ -1,0 +1,34 @@
+# original images
+logo_top:  "img/logo_141x17.png"
+hero_img:  "img/hero_233x186.png"
+
+set_0:
+- image:    "img/hum_1_130x130.png"
+- image:    "img/hum_2_130x130.png"
+- image:    "img/hum_3_130x130.png"
+
+set_1:
+ - image:  img/hum_4_130x130.png
+   name:     "John Deere"
+   text:     "Lorem ipsum dolor sit amet consectetur adipisicing elit."
+   spacer:   "<spacer size='25'></spacer>"
+
+ - image:  img/hum_5_130x130.png
+   name:     "Annie Johns"
+   text:     "Odio magnam dolorum accusantium expedita sint fugit saepe non error!"
+   spacer:   "<spacer size='10'></spacer>"
+
+ - image:  "img/hum_6_130x130.png"
+   name:     "Debie Deere"
+   text:     "Odio magnam dolorum accusantium expedita sint fugit saepe non error!"
+   spacer:   "<spacer size='10'></spacer>"
+
+set_2:
+ - image:   "img/si_fb_28x27.png"
+   alt:      "facebook"
+ - image:   "img/si_tw_28x27.png"
+   alt:      "twitter"
+ - image:   "img/si_pint_28x27.png"
+   alt:      "pinterest"
+ - image:   "img/si_rss_28x27.png"
+   alt:      "rss"
