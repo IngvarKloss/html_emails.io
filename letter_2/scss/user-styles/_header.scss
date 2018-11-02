@@ -1,0 +1,13 @@
+.body {
+  & .header {
+    & .text {
+      font-size: 11px;
+      color: $user-gray-2;
+    }
+
+    & .link {
+      font-size: 11px;
+      color: $user-red-1;
+    }
+  }
+}

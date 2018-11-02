@@ -1,0 +1,36 @@
+@import 'foundation-emails';
+
+@mixin clear {
+  padding: 0;
+  margin: 0;
+  Margin: 0;
+}
+
+h1,
+h2,
+h3,
+p,
+table.button {
+  @include clear;
+}
+
+
+
+.img {
+  background: $user-gray-2;
+}
+
+.columns {
+  padding-bottom: 0!important;
+}
+
+.tiny-text {
+  font-size: 11px;
+  color: $user-gray-3;
+}
+
+
+@import 'user-styles/header';
+@import 'user-styles/body';
+@import 'user-styles/title';
+@import 'user-styles/envelope';

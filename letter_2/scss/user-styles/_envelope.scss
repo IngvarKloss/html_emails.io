@@ -1,0 +1,17 @@
+ .main {
+    & .envelope {
+      background-image: url("img/envelope.png");
+      background-size: 101% 100%;
+      background-position: 50% 0;
+      background-repeat: no-repeat;
+
+      & .stop {
+        width: 46px;
+        height: 46px;
+      }
+
+      & .link {
+        color: $user-orange;
+      }
+    }
+  }

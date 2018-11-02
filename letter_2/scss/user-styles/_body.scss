@@ -1,0 +1,48 @@
+.body {
+  & .main {
+    background-color: #ffffff;
+    background-image: url("img/sheets-bg.png");
+    background-size: 101% 100%;
+    background-position: 50% 0;
+    background-repeat: no-repeat repeat;
+
+    & .wrapper-img {
+      background: transparent;
+      max-width: 486px !important;
+      height: auto !important;
+
+      & .img {
+        width: 159px;
+        height: 85px;
+        vertical-align: top;
+      }
+    }
+
+    & .text {
+      color: $user-gray-2;
+      line-height: 24px;
+    }
+
+    & .button td {
+      border: none;
+      background: $user-orange;
+      border-radius: $global-radius;
+      mso-padding-alt: 5px 10px;
+    }
+
+    & .btn a {
+      border: 1px solid $user-orange;
+      background-image: linear-gradient(#fb823d, #ee5d1d);
+      box-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
+      text-align: center;
+      line-height: 44px;
+      color: $user-white;
+      display: block;
+      font-size: 18px;
+      font-weight: normal;
+      padding: 0 !important;
+      width: 144px;
+      height: 44px;
+    }
+  }
+}
