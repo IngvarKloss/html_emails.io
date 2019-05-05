@@ -1,0 +1,42 @@
+table.body {
+
+  & .pre-header {
+    background: $u-black_1;
+
+    & .text {
+      font-size: $u-tiny;
+      color: $u-gray_4;
+    }
+
+    & .link+.link {
+      padding-left: 15px;
+    }
+
+    & .decoration-link {
+      color: $u-gray_5;
+      text-decoration: underline;
+    }
+
+    & .link {
+      color: $u-gray_5;
+    }
+
+    & .arrow {
+      font-size: 8px;
+      color: $u-gray_4;
+      vertical-align: middle;
+    }
+  }
+
+  & .header-logo {
+    & .image {
+      width: 114px;
+      height: 28px;
+    }
+
+    & .date {
+      font-size: $u-big;
+      color: $u-gray_6;
+    }
+  }
+}

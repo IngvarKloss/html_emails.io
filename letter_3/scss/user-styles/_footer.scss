@@ -1,0 +1,23 @@
+table.body {
+  & .footer_wrap {
+    background-color: $u-gray_3;
+
+    & .footer {
+      background: $u-gray_3;
+
+      & .text {
+        color: $u-gray_8;
+      }
+
+      & .link {
+        color: $u-gray_9;
+        text-decoration: underline;
+      }
+
+      & .link,
+      & .text {
+        font-size: $u-tiny-2;
+      }
+    }
+  }
+}

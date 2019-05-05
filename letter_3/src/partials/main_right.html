@@ -1,0 +1,44 @@
+<columns large='4' class="main_right">
+  <wrapper class='h2-wrapper'>
+    <spacer size='27'></spacer>
+    <h2 class='h2-title'>Sidebar List</h2>
+    <spacer size='22'></spacer>
+  </wrapper>
+  <wrapper class="list">
+    {{#each global.set_2}}
+      <wrapper>
+        <table>
+          <tr>
+            <td class="gap">&#160;</td>
+            <td>
+              <spacer size="15"></spacer>
+              <a class="link" href="#">
+                <span class="bullet">&#8226;</span>&#160;
+                <span class="text">{{this}}</span>
+              </a>
+              <spacer size="15"></spacer>
+            </td>
+          </tr>
+        </table>
+      </wrapper>
+    {{/each}}
+  </wrapper>
+  <spacer size="30"></spacer>
+  <wrapper class="social_icons">
+    <table class="grid">
+      <tr>
+        <td class="f_column" valign='middle'>
+          <a href="#">
+            <img class="facebook float-center small-float-left" src="{{global.facebook}}" alt="facebook">
+          </a>
+        </td>
+        <td class="gap">&#160;</td>
+        <td class="s_column">
+          <a href="#">
+            <img class="twitter float-center small-float-left" src="{{global.twitter}}" alt="twitter">
+          </a>
+        </td>
+      </tr>
+    </table>
+  </wrapper>
+</columns>

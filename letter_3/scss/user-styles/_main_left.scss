@@ -1,0 +1,69 @@
+table.body {
+  & .main_left {
+    background-color: $u-gray;
+    @include h2Title;
+
+    & .grid {
+      & .img-column {
+        width: 34%;
+        vertical-align: middle;
+      }
+
+      & .text-column {
+        width: 62%;
+      }
+
+      & .image {
+        margin: auto;
+      }
+
+      & .img-1 {
+        width: 78px;
+        height: 59px;
+      }
+
+      & .img-2 {
+        width: 61px;
+        height: 44px;
+      }
+
+      & .img-3 {
+        width: 59px;
+        height: 59px;
+      }
+    }
+
+    & .title_h3 {
+      color: $u-black;
+      font-size: $u-normal;
+      font-weight: bold;
+    }
+
+    & .text {
+      color: $u-gray_7;
+    }
+
+    & .link {
+      & .bullet {
+         color: $u-red;
+       }
+
+      & .text {
+        text-decoration: underline;
+        color: $u-red;
+      }
+      & .bullet, & .text {
+          font-size: $u-small;
+      }
+    }
+
+    & .text {
+      font-size: $u-small;
+      line-height: $u-small_lh;
+    }
+
+    & .items {
+      @include doubledBorder;
+    }
+  }
+}

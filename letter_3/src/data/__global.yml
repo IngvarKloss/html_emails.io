@@ -1,0 +1,50 @@
+# original images
+
+logo_top:      "img/logo_114x28.png"
+hero_img:      "img/hero_201x240.png"
+
+#main_left
+set_1:
+ - image:      "img/icon_1_78x59.png"
+   title_h3:   "Cloud Storage Discounts"
+   img_class:  "img-1"
+   text:       "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro ab quia cumque nam deleniti voluptas quis nostrum."
+
+ - image:      "img/icon_2_61x44.png"
+   title_h3:   "Filesystem Permissions"
+   img_class:  "img-2"
+   text:       "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro ab quia cumque nam deleniti voluptas quis nostrum."
+
+ - image:      "img/icon_3_59x59.png"
+   title_h3:   "No Limits"
+   img_class:  "img-3"
+   text:       "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro ab quia cumque nam deleniti voluptas quis nostrum."
+
+#main_right
+set_2:
+- Quisque sagittis sapien
+- Ut ipsum pharetra
+- Fermentum in ut
+- Lectus in turpis commodo
+- Ullamcorper dolor
+- Psum pharetra amet
+
+#social_icon's_img
+facebook: "img/icon_facebook(18x33).png"
+twitter: "img/icon_twitter(36x25).png"
+
+#gallery
+image_0:       "img/image_1(158x145).jpg"
+alt_0:         "some_photo"
+image_1:       "img/image_2(158x145).jpg"
+alt_1:         "some_photo"
+image_2:       "img/image_3(322x145).jpg"
+alt_2:         "some_photo"
+image_3:       "img/image_4(322x145).jpg"
+alt_3:         "some_photo"
+image_4:       "img/image_5(158x145).jpg"
+alt_4:         "some_photo"
+image_5:       "img/image_6(158x145).jpg"
+alt_5:         "some_photo"
+
+logo_bottom:      "img/logo-2_114x27.png"

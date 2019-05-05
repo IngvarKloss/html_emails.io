@@ -1,0 +1,37 @@
+table.body {
+  & .gallery {
+    & .gallery_h2 {
+      @include h2Title;
+    }
+
+    & .gallery_gap {
+      width: 8px;
+    }
+
+    & .grid {
+      width: 322px;
+
+      & .gap {
+        width: 6px;
+      }
+
+      & .wrapp_w158 {
+        width: 158px;
+      }
+
+      & .image_158x145 {
+        // width: 158px;
+      }
+
+      & .image_322x145 {
+        // width: 322px;
+      }
+
+      & .image_158x145,
+      & .image_322x145 {
+        height: 145px;
+        width: 100%;
+      }
+    }
+  }
+}

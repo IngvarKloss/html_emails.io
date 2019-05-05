@@ -1,0 +1,33 @@
+<columns large='7' class='main_left'>
+  <wrapper class='h2-wrapper'>
+    <spacer size='27'></spacer>
+    <h2 class='h2-title'>This Week</h2>
+    <spacer size='22'></spacer>
+  </wrapper>
+  <wrapper class='items'>
+    {{#each global.set_1}}
+      <wrapper>
+        <spacer size='22'></spacer>
+        <table class='grid'>
+          <tr>
+            <td class='img-column'>
+              <img class="image {{img_class}}" src="{{image}}" alt="icon">
+            </td>
+            <td class='text-column'>
+
+              <h3 class='title_h3'>
+                {{title_h3}}</h3>
+              <spacer size='10'></spacer>
+              <p class="text"> {{text}} </p>
+              <spacer size='5'></spacer>
+              <a class="link" href="#"><span class="bullet">&#8226;</span>&#160;<span class="text">View More</span></a>
+
+            </td>
+            <td class="right-gap">&#160;</td>
+          </tr>
+        </table>
+        <spacer size='26'></spacer>
+      </wrapper>
+    {{/each}}
+  </wrapper>
+</columns>

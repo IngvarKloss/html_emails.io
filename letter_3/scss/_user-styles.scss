@@ -1,0 +1,65 @@
+@mixin clear {
+  padding: 0;
+  margin: 0;
+  Margin: 0;
+}
+
+
+@mixin h2Title {
+  & .h2-wrapper {
+    background-color: $u-red;
+
+    & .h2-title {
+      color: $u-white;
+      font-size: $u-big;
+      padding-left: 19px;
+    }
+  }
+}
+
+
+@mixin uBorder($side: bottom, $color: black, $style: solid, $width: 1px) {
+  border-#{$side}-color: $color;
+  border-#{$side}-style: $style;
+  border-#{$side}-width: $width;}
+
+  @mixin doubledBorder ($wrappName: wrapper, $color_1: $u-white, $color_2: $u-gray_10, $width_1: 1px) {
+    & .#{$wrappName} + .#{$wrappName} {
+      @include uBorder ($side: top, $color: $color_1, $width: $width_1)
+    }
+    & .#{$wrappName} {
+      @include uBorder ($color: $color_2, $width: $width_1)
+    }
+    & :last-child {
+      border-bottom: none;
+    }
+  }
+
+
+
+@mixin circled {
+  border-radius: 50%;
+}
+
+$global-padding: 0;
+$body-background: $u-black;
+$container-background: $u-black;
+$button-background: $u-white;
+$button-color: $u-red;
+$global-line-height: 1;
+$global-font-size: 10px;
+
+$paragraph-margin-bottom: 0;
+$header-margin-bottom: 0;
+
+
+
+// table.body {
+//   h1,
+//   h2,
+//   h3,
+//   p,
+//   table.button {
+//     @include clear;
+//   }
+// }

@@ -1,0 +1,53 @@
+table.body {
+  & .main_right {
+    @include h2Title;
+
+    & .list {
+      background-color: $u-gray;
+      @include doubledBorder;
+
+      & .gap {
+        width: 20px;
+      }
+
+      & .bullet,
+      & .text {
+        font-size: $u-small;
+        color: $u-red;
+      }
+    }
+
+    & .social_icons {
+      & .grid {
+        // width: auto;
+      }
+      & .gap {width: 15px;}
+
+      & .f_column,
+      & .s_column {
+        height: 107px;
+        // width: 107px;
+        width: 48%;
+        vertical-align: middle;
+      }
+
+      & .f_column {
+        background-color: #318dff;
+      }
+
+      & .s_column {
+        background-color: #00c0ff;
+      }
+
+      & .facebook {
+        height: 33px;
+        width: 18px;
+      }
+
+      & .twitter {
+        height: 25px;
+        width: 36px;
+      }
+    }
+  }
+}

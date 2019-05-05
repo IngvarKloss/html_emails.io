@@ -1,0 +1,57 @@
+table.body {
+  & .hero {
+    background: $u-green;
+
+
+
+    & .first {
+      padding-left: 40px;
+    }
+
+    & .title-h1 {
+      color: $u-white;
+      font-size: $u-extra-large;
+      line-height: $u-extra-large_lh;
+    }
+
+    & .text {
+      color: $u-green_2;
+      font-size: $u-normal-2;
+      line-height: $u-normal-2_lh;
+    }
+
+    & .button {
+      border-bottom-width: 4px;
+      border-bottom-style: solid;
+      border-bottom-color: $u-green_3;
+    }
+
+    & .button a {
+      font-size: $u-normal-2;
+      padding: 0;
+      text-align: center;
+      display: block;
+      width: 128px;
+      height: 58px;
+      line-height: 58px;
+      //style for Outlook
+      mso-padding-alt:  20px 30px;
+    }
+
+    @media only screen and (max-width: 636px) {
+      & .button {
+        float: right;
+      }
+    }
+
+    & .last {
+      // padding-right: 40px;
+      padding-right: 0
+    }
+
+    & .image {
+      width: 201px;
+      height: 240px;
+    }
+  }
+}
