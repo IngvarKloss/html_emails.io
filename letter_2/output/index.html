@@ -4,314 +4,110 @@
 <head>
   <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
   <meta name="viewport" content="width=device-width">
-  <style>
-@media only screen {
-  html {
-    min-height: 100%;
-    background: #313131;
-  }
-}
-
-
-@media only screen and (max-width:596px) {
-  .small-float-center {
-    margin: 0 auto !important;
-    float: none !important;
-  }
-  .small-float-center,.small-text-center {
-    text-align: center !important;
-  }
-  .small-text-left {
-    text-align: left !important;
-  }
-  .small-text-right {
-    text-align: right !important;
-  }
-}
-
-
-@media only screen and (max-width:596px) {
-  .hide-for-large {
-    display: block !important;
-    width: auto !important;
-    overflow: visible !important;
-    max-height: none !important;
-    font-size: inherit !important;
-    line-height: inherit !important;
-  }
-}
-
-
-@media only screen and (max-width:596px) {
-  table.body table.container .hide-for-large,table.body table.container .row.hide-for-large {
-    display: table !important;
-    width: 100% !important;
-  }
-  table.body table.container .callout-inner.hide-for-large {
-    display: table-cell !important;
-    width: 100% !important;
-  }
-  table.body table.container .show-for-large {
-    display: none !important;
-    width: 0;
-    mso-hide: all;
-    overflow: hidden;
-  }
-}
-
-
-@media only screen and (max-width:596px) {
-  table.body img {
-    width: auto;
-    height: auto;
-  }
-  table.body center {
-    min-width: 0 !important;
-  }
-  table.body .container {
-    width: 95% !important;
-  }
-  table.body .column,table.body .columns {
-    height: auto !important;
-    -moz-box-sizing: border-box;
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box;
-    padding-left: 16px !important;
-    padding-right: 16px !important;
-  }
-  table.body .collapse .column,table.body .collapse .columns,table.body .column .column,table.body .column .columns,table.body .columns .column,table.body .columns .columns {
-    padding-left: 0 !important;
-    padding-right: 0 !important;
-  }
-  td.small-1,th.small-1 {
-    display: inline-block !important;
-    width: 8.33333% !important;
-  }
-  td.small-2,td.small-3,th.small-2,th.small-3 {
-    display: inline-block !important;
-    width: 16.66667% !important;
-  }
-  td.small-3,th.small-3 {
-    width: 25% !important;
-  }
-  td.small-4,td.small-5,th.small-4,th.small-5 {
-    display: inline-block !important;
-    width: 33.33333% !important;
-  }
-  td.small-5,th.small-5 {
-    width: 41.66667% !important;
-  }
-  td.small-6,td.small-7,th.small-6,th.small-7 {
-    display: inline-block !important;
-    width: 50% !important;
-  }
-  td.small-7,th.small-7 {
-    width: 58.33333% !important;
-  }
-  td.small-8,td.small-9,th.small-8,th.small-9 {
-    display: inline-block !important;
-    width: 66.66667% !important;
-  }
-  td.small-9,th.small-9 {
-    width: 75% !important;
-  }
-  td.small-10,td.small-11,th.small-10,th.small-11 {
-    display: inline-block !important;
-    width: 83.33333% !important;
-  }
-  td.small-11,th.small-11 {
-    width: 91.66667% !important;
-  }
-  table.menu td,table.menu th,td.small-12,th.small-12 {
-    display: inline-block !important;
-    width: 100% !important;
-  }
-  .column td.small-12,.column th.small-12,.columns td.small-12,.columns th.small-12 {
-    display: block !important;
-    width: 100% !important;
-  }
-  table.body td.small-offset-1,table.body th.small-offset-1 {
-    margin-left: 8.33333% !important;
-    Margin-left: 8.33333% !important;
-  }
-  table.body td.small-offset-2,table.body th.small-offset-2 {
-    margin-left: 16.66667% !important;
-    Margin-left: 16.66667% !important;
-  }
-  table.body td.small-offset-3,table.body th.small-offset-3 {
-    margin-left: 25% !important;
-    Margin-left: 25% !important;
-  }
-  table.body td.small-offset-4,table.body th.small-offset-4 {
-    margin-left: 33.33333% !important;
-    Margin-left: 33.33333% !important;
-  }
-  table.body td.small-offset-5,table.body th.small-offset-5 {
-    margin-left: 41.66667% !important;
-    Margin-left: 41.66667% !important;
-  }
-  table.body td.small-offset-6,table.body th.small-offset-6 {
-    margin-left: 50% !important;
-    Margin-left: 50% !important;
-  }
-  table.body td.small-offset-7,table.body th.small-offset-7 {
-    margin-left: 58.33333% !important;
-    Margin-left: 58.33333% !important;
-  }
-  table.body td.small-offset-8,table.body th.small-offset-8 {
-    margin-left: 66.66667% !important;
-    Margin-left: 66.66667% !important;
-  }
-  table.body td.small-offset-9,table.body th.small-offset-9 {
-    margin-left: 75% !important;
-    Margin-left: 75% !important;
-  }
-  table.body td.small-offset-10,table.body th.small-offset-10 {
-    margin-left: 83.33333% !important;
-    Margin-left: 83.33333% !important;
-  }
-  table.body td.small-offset-11,table.body th.small-offset-11 {
-    margin-left: 91.66667% !important;
-    Margin-left: 91.66667% !important;
-  }
-  table.body table.columns td.expander,table.body table.columns th.expander {
-    display: none !important;
-  }
-  table.body .right-text-pad,table.body .text-pad-right {
-    padding-left: 10px !important;
-  }
-  table.body .left-text-pad,table.body .text-pad-left {
-    padding-right: 10px !important;
-  }
-  table.menu td,table.menu th {
-    width: auto !important;
-  }
-  table.menu.small-vertical td,table.menu.small-vertical th,table.menu.vertical td,table.menu.vertical th {
-    display: block !important;
-  }
-  table.menu[align=center] {
-    width: auto !important;
-  }
-  table.button.small-expand,table.button.small-expanded,table.menu {
-    width: 100% !important;
-  }
-  table.button.small-expand table,table.button.small-expanded table {
-    width: 100%;
-  }
-  table.button.small-expand table a,table.button.small-expanded table a {
-    text-align: center !important;
-    width: 100% !important;
-    padding-left: 0 !important;
-    padding-right: 0 !important;
-  }
-  table.button.small-expand center,table.button.small-expanded center {
-    min-width: 0;
-  }
-}
-</style>
+  <link rel="stylesheet" href="user-styles.css" inline>
 </head>
 
-<body style="-moz-box-sizing: border-box; -ms-text-size-adjust: 100%; -webkit-box-sizing: border-box; -webkit-text-size-adjust: 100%; Margin: 0; box-sizing: border-box; color: #0a0a0a; font-family: Helvetica,Arial,sans-serif; font-size: 16px; font-weight: 400; line-height: 1.3; margin: 0; min-width: 100%; padding: 0; text-align: left; width: 100% !important;">
-  <table class="body" style="Margin: 0; background: #313131; border-collapse: collapse; border-spacing: 0; color: #0a0a0a; font-family: Helvetica,Arial,sans-serif; font-size: 16px; font-weight: 400; height: 100%; line-height: 1.3; margin: 0; padding: 0; text-align: left; vertical-align: top; width: 100%;">
-    <tr style="padding: 0; text-align: left; vertical-align: top;">
-      <td class="float-center" align="center" valign="top" style="-moz-hyphens: auto; -webkit-hyphens: auto; Margin: 0 auto; border-collapse: collapse !important; color: #0a0a0a; float: none; font-family: Helvetica,Arial,sans-serif; font-size: 16px; font-weight: 400; hyphens: auto; line-height: 1.3; margin: 0 auto; padding: 0; text-align: center; vertical-align: top; word-wrap: break-word;">
-        <center data-parsed="" style="min-width: 580px; width: 100%;">
-          <table class="spacer float-center" style="Margin: 0 auto; border-collapse: collapse; border-spacing: 0; float: none; margin: 0 auto; padding: 0; text-align: center; vertical-align: top; width: 100%;"><tbody><tr style="padding: 0; text-align: left; vertical-align: top;"><td height="30px" style="-moz-hyphens: auto; -webkit-hyphens: auto; Margin: 0; border-collapse: collapse !important; color: #0a0a0a; font-family: Helvetica,Arial,sans-serif; font-size: 30px; font-weight: 400; hyphens: auto; line-height: 30px; margin: 0; mso-line-height-rule: exactly; padding: 0; text-align: left; vertical-align: top; word-wrap: break-word;">&#xA0;</td></tr></tbody></table> 
-          <table align="center" class="container header float-center" style="Margin: 0 auto; background: #313131; border-collapse: collapse; border-spacing: 0; float: none; margin: 0 auto; padding: 0; text-align: center; vertical-align: top; width: 580px;"><tbody><tr style="padding: 0; text-align: left; vertical-align: top;"><td style="-moz-hyphens: auto; -webkit-hyphens: auto; Margin: 0; border-collapse: collapse !important; color: #0a0a0a; font-family: Helvetica,Arial,sans-serif; font-size: 16px; font-weight: 400; hyphens: auto; line-height: 1.3; margin: 0; padding: 0; text-align: left; vertical-align: top; word-wrap: break-word;">
-            <table class="row" style="border-collapse: collapse; border-spacing: 0; display: table; padding: 0; position: relative; text-align: left; vertical-align: top; width: 100%;"><tbody><tr style="padding: 0; text-align: left; vertical-align: top;">
-              <th class="small-12 large-12 columns first last" style="Margin: 0 auto; color: #0a0a0a; font-family: Helvetica,Arial,sans-serif; font-size: 16px; font-weight: 400; line-height: 1.3; margin: 0 auto; padding: 0; padding-bottom: 0 !important; padding-left: 16px; padding-right: 16px; text-align: left; width: 564px;"><table style="border-collapse: collapse; border-spacing: 0; padding: 0; text-align: left; vertical-align: top; width: 100%;"><tr style="padding: 0; text-align: left; vertical-align: top;"><th style="Margin: 0; color: #0a0a0a; font-family: Helvetica,Arial,sans-serif; font-size: 16px; font-weight: 400; line-height: 1.3; margin: 0; padding: 0; text-align: left;">
+<body>
+  <table class="body">
+    <tr>
+      <td class="float-center" align="center" valign="top">
+        <center data-parsed>
+          <table class="spacer float-center"><tbody><tr><td height="30px" style="font-size:30px;line-height:30px;">&#xA0;</td></tr></tbody></table> 
+          <table align="center" class="container header float-center"><tbody><tr><td>
+            <table class="row"><tbody><tr>
+              <th class="small-12 large-12 columns first last"><table><tr><th>
           
-                <p class="text text-center" style="Margin: 0; color: #8d8d8d; font-family: Helvetica,Arial,sans-serif; font-size: 11px; font-weight: 400; line-height: 1.3; margin: 0; padding: 0; text-align: center;">Email not looking right? <a class="link" href="#" style="Margin: 0; color: #fd3f4b; font-family: Helvetica,Arial,sans-serif; font-size: 11px; font-weight: 400; line-height: 1.3; margin: 0; padding: 0; text-align: left; text-decoration: none;">View it in your browser!</a></p>
+                <p class="text text-center">Email not looking right? <a class="link" href="#">View it in your browser!</a></p>
           
               </th>
-<th class="expander" style="Margin: 0; color: #0a0a0a; font-family: Helvetica,Arial,sans-serif; font-size: 16px; font-weight: 400; line-height: 1.3; margin: 0; padding: 0 !important; text-align: left; visibility: hidden; width: 0;"></th></tr></table></th>
+<th class="expander"></th></tr></table></th>
             </tr></tbody></table>
           </td></tr></tbody></table>
-          <table class="spacer float-center" style="Margin: 0 auto; border-collapse: collapse; border-spacing: 0; float: none; margin: 0 auto; padding: 0; text-align: center; vertical-align: top; width: 100%;"><tbody><tr style="padding: 0; text-align: left; vertical-align: top;"><td height="20px" style="-moz-hyphens: auto; -webkit-hyphens: auto; Margin: 0; border-collapse: collapse !important; color: #0a0a0a; font-family: Helvetica,Arial,sans-serif; font-size: 20px; font-weight: 400; hyphens: auto; line-height: 20px; margin: 0; mso-line-height-rule: exactly; padding: 0; text-align: left; vertical-align: top; word-wrap: break-word;">&#xA0;</td></tr></tbody></table> 
+          <table class="spacer float-center"><tbody><tr><td height="20px" style="font-size:20px;line-height:20px;">&#xA0;</td></tr></tbody></table> 
           
-          <table align="center" class="container main float-center" style="Margin: 0 auto; background: #313131; background-color: #fff; background-image: url(img/sheets-bg.png); background-position: 50% 0; background-repeat: no-repeat repeat; background-size: 101% 100%; border-collapse: collapse; border-spacing: 0; float: none; margin: 0 auto; padding: 0; text-align: center; vertical-align: top; width: 580px;"><tbody><tr style="padding: 0; text-align: left; vertical-align: top;"><td style="-moz-hyphens: auto; -webkit-hyphens: auto; Margin: 0; border-collapse: collapse !important; color: #0a0a0a; font-family: Helvetica,Arial,sans-serif; font-size: 16px; font-weight: 400; hyphens: auto; line-height: 1.3; margin: 0; padding: 0; text-align: left; vertical-align: top; word-wrap: break-word;">
+          <table align="center" class="container main float-center"><tbody><tr><td>
           
-            <table class="wrapper title" align="center" style="border-collapse: collapse; border-spacing: 0; padding: 0; text-align: left; vertical-align: top; width: 100%;"><tr style="padding: 0; text-align: left; vertical-align: top;"><td class="wrapper-inner" style="-moz-hyphens: auto; -webkit-hyphens: auto; Margin: 0; border-collapse: collapse !important; color: #0a0a0a; font-family: Helvetica,Arial,sans-serif; font-size: 16px; font-weight: 400; hyphens: auto; line-height: 1.3; margin: 0; padding: 0; text-align: left; vertical-align: top; word-wrap: break-word;">
-            <table class="spacer sheets-top" style="background-image: url(img/sheets-top.png); background-position: 50% 0; background-repeat: no-repeat; background-size: 101% auto; border-collapse: collapse; border-spacing: 0; padding: 0; text-align: left; vertical-align: top; width: 100%;"><tbody><tr style="padding: 0; text-align: left; vertical-align: top;"><td height="50px" style="-moz-hyphens: auto; -webkit-hyphens: auto; Margin: 0; border-collapse: collapse !important; color: #0a0a0a; font-family: Helvetica,Arial,sans-serif; font-size: 50px; font-weight: 400; hyphens: auto; line-height: 50px; margin: 0; mso-line-height-rule: exactly; padding: 0; text-align: left; vertical-align: top; word-wrap: break-word;">&#xA0;</td></tr></tbody></table> 
-            <table class="row" style="border-collapse: collapse; border-spacing: 0; display: table; padding: 0; position: relative; text-align: left; vertical-align: top; width: 100%;"><tbody><tr style="padding: 0; text-align: left; vertical-align: top;">
-              <th class="small-12 large-12 columns first last" style="Margin: 0 auto; color: #0a0a0a; font-family: Helvetica,Arial,sans-serif; font-size: 16px; font-weight: 400; line-height: 1.3; margin: 0 auto; padding: 0; padding-bottom: 0 !important; padding-left: 16px; padding-right: 16px; text-align: left; width: 564px;"><table style="border-collapse: collapse; border-spacing: 0; padding: 0; text-align: left; vertical-align: top; width: 100%;"><tr style="padding: 0; text-align: left; vertical-align: top;"><th style="Margin: 0; color: #0a0a0a; font-family: Helvetica,Arial,sans-serif; font-size: 16px; font-weight: 400; line-height: 1.3; margin: 0; padding: 0; text-align: left;">
-                <h1 class="title-h1 text-center" style="Margin: 0; color: #fd3f4b; font-family: Helvetica,Arial,sans-serif; font-size: 35px; font-weight: 700; line-height: 1.3; margin: 0; padding: 0; text-align: center; text-transform: uppercase; word-wrap: normal;">FREEBIES GALLERY</h1>
-                <table class="spacer" style="border-collapse: collapse; border-spacing: 0; padding: 0; text-align: left; vertical-align: top; width: 100%;"><tbody><tr style="padding: 0; text-align: left; vertical-align: top;"><td height="5px" style="-moz-hyphens: auto; -webkit-hyphens: auto; Margin: 0; border-collapse: collapse !important; color: #0a0a0a; font-family: Helvetica,Arial,sans-serif; font-size: 5px; font-weight: 400; hyphens: auto; line-height: 5px; margin: 0; mso-line-height-rule: exactly; padding: 0; text-align: left; vertical-align: top; word-wrap: break-word;">&#xA0;</td></tr></tbody></table> 
-                <h2 class="title-h2 text-center" style="Margin: 0; color: #8d8d8d; font-family: Helvetica,Arial,sans-serif; font-size: 16px; font-weight: 400; line-height: 1.3; margin: 0; padding: 0; text-align: center; text-transform: uppercase; word-wrap: normal;">Download Free Design Resource</h2>
+            <table class="wrapper title" align="center"><tr><td class="wrapper-inner">
+            <table class="spacer sheets-top"><tbody><tr><td height="50px" style="font-size:50px;line-height:50px;">&#xA0;</td></tr></tbody></table> 
+            <table class="row"><tbody><tr>
+              <th class="small-12 large-12 columns first last"><table><tr><th>
+                <h1 class="title-h1 text-center">FREEBIES GALLERY</h1>
+                <table class="spacer"><tbody><tr><td height="5px" style="font-size:5px;line-height:5px;">&#xA0;</td></tr></tbody></table> 
+                <h2 class="title-h2 text-center">Download Free Design Resource</h2>
               </th>
-<th class="expander" style="Margin: 0; color: #0a0a0a; font-family: Helvetica,Arial,sans-serif; font-size: 16px; font-weight: 400; line-height: 1.3; margin: 0; padding: 0 !important; text-align: left; visibility: hidden; width: 0;"></th></tr></table></th>
+<th class="expander"></th></tr></table></th>
             </tr></tbody></table>
             </td></tr></table>
-            <table class="spacer" style="border-collapse: collapse; border-spacing: 0; padding: 0; text-align: left; vertical-align: top; width: 100%;"><tbody><tr style="padding: 0; text-align: left; vertical-align: top;"><td height="40px" style="-moz-hyphens: auto; -webkit-hyphens: auto; Margin: 0; border-collapse: collapse !important; color: #0a0a0a; font-family: Helvetica,Arial,sans-serif; font-size: 40px; font-weight: 400; hyphens: auto; line-height: 40px; margin: 0; mso-line-height-rule: exactly; padding: 0; text-align: left; vertical-align: top; word-wrap: break-word;">&#xA0;</td></tr></tbody></table> 
-            <center data-parsed="" style="min-width: 580px; width: 100%;">
-              <table align="center" class="wrapper wrapper-img float-center" style="Margin: 0 auto; background: 0 0; border-collapse: collapse; border-spacing: 0; float: none; height: auto !important; margin: 0 auto; max-width: 486px !important; padding: 0; text-align: center; vertical-align: top; width: 100%;"><tr style="padding: 0; text-align: left; vertical-align: top;"><td class="wrapper-inner" style="-moz-hyphens: auto; -webkit-hyphens: auto; Margin: 0; border-collapse: collapse !important; color: #0a0a0a; font-family: Helvetica,Arial,sans-serif; font-size: 16px; font-weight: 400; hyphens: auto; line-height: 1.3; margin: 0; padding: 0; text-align: left; vertical-align: top; word-wrap: break-word;">
-                <table class="row collapse" style="border-collapse: collapse; border-spacing: 0; display: table; padding: 0; position: relative; text-align: left; vertical-align: top; width: 100%;"><tbody><tr style="padding: 0; text-align: left; vertical-align: top;">
-                  <th class="small-12 large-4 columns first" style="Margin: 0 auto; color: #0a0a0a; font-family: Helvetica,Arial,sans-serif; font-size: 16px; font-weight: 400; line-height: 1.3; margin: 0 auto; padding: 0; padding-bottom: 0 !important; padding-left: 0; padding-right: 0; text-align: left; width: 201.33333px;"><table style="border-collapse: collapse; border-spacing: 0; padding: 0; text-align: left; vertical-align: top; width: 100%;"><tr style="padding: 0; text-align: left; vertical-align: top;"><th style="Margin: 0; color: #0a0a0a; font-family: Helvetica,Arial,sans-serif; font-size: 16px; font-weight: 400; line-height: 1.3; margin: 0; padding: 0; text-align: left;"><a href="#" style="Margin: 0; color: #2199e8; font-family: Helvetica,Arial,sans-serif; font-weight: 400; line-height: 1.3; margin: 0; padding: 0; text-align: left; text-decoration: none;"><img class="img float-center" src="img/img_1_159x85.jpg" alt="some_photo" style="-ms-interpolation-mode: bicubic; Margin: 0 auto; background: #8d8d8d; border: 0; clear: both; display: block; float: none; height: 85px; margin: 0 auto; max-width: 100%; outline: 0; text-align: center; text-decoration: none; vertical-align: top; width: 159px;"></a>
-                    <table class="spacer" style="border-collapse: collapse; border-spacing: 0; padding: 0; text-align: left; vertical-align: top; width: 100%;"><tbody><tr style="padding: 0; text-align: left; vertical-align: top;"><td height="3px" style="-moz-hyphens: auto; -webkit-hyphens: auto; Margin: 0; border-collapse: collapse !important; color: #0a0a0a; font-family: Helvetica,Arial,sans-serif; font-size: 3px; font-weight: 400; hyphens: auto; line-height: 3px; margin: 0; mso-line-height-rule: exactly; padding: 0; text-align: left; vertical-align: top; word-wrap: break-word;">&#xA0;</td></tr></tbody></table> 
+            <table class="spacer"><tbody><tr><td height="40px" style="font-size:40px;line-height:40px;">&#xA0;</td></tr></tbody></table> 
+            <center data-parsed>
+              <table align="center" class="wrapper wrapper-img float-center"><tr><td class="wrapper-inner">
+                <table class="row collapse"><tbody><tr>
+                  <th class="small-12 large-4 columns first"><table><tr><th><a href="#"><img class="img float-center" src="img/img_1_159x85.jpg" alt="some_photo"></a>
+                    <table class="spacer"><tbody><tr><td height="3px" style="font-size:3px;line-height:3px;">&#xA0;</td></tr></tbody></table> 
                   </th></tr></table></th>
-                  <th class="small-12 large-4 columns" style="Margin: 0 auto; color: #0a0a0a; font-family: Helvetica,Arial,sans-serif; font-size: 16px; font-weight: 400; line-height: 1.3; margin: 0 auto; padding: 0; padding-bottom: 0 !important; padding-left: 0; padding-right: 0; text-align: left; width: 193.33333px;"><table style="border-collapse: collapse; border-spacing: 0; padding: 0; text-align: left; vertical-align: top; width: 100%;"><tr style="padding: 0; text-align: left; vertical-align: top;"><th style="Margin: 0; color: #0a0a0a; font-family: Helvetica,Arial,sans-serif; font-size: 16px; font-weight: 400; line-height: 1.3; margin: 0; padding: 0; text-align: left;"><a href="#" style="Margin: 0; color: #2199e8; font-family: Helvetica,Arial,sans-serif; font-weight: 400; line-height: 1.3; margin: 0; padding: 0; text-align: left; text-decoration: none;"><img class="img float-center" src="img/img_2_159x85.jpg" alt="some_photo" style="-ms-interpolation-mode: bicubic; Margin: 0 auto; background: #8d8d8d; border: 0; clear: both; display: block; float: none; height: 85px; margin: 0 auto; max-width: 100%; outline: 0; text-align: center; text-decoration: none; vertical-align: top; width: 159px;"></a>
-                    <table class="spacer" style="border-collapse: collapse; border-spacing: 0; padding: 0; text-align: left; vertical-align: top; width: 100%;"><tbody><tr style="padding: 0; text-align: left; vertical-align: top;"><td height="3px" style="-moz-hyphens: auto; -webkit-hyphens: auto; Margin: 0; border-collapse: collapse !important; color: #0a0a0a; font-family: Helvetica,Arial,sans-serif; font-size: 3px; font-weight: 400; hyphens: auto; line-height: 3px; margin: 0; mso-line-height-rule: exactly; padding: 0; text-align: left; vertical-align: top; word-wrap: break-word;">&#xA0;</td></tr></tbody></table> 
+                  <th class="small-12 large-4 columns"><table><tr><th><a href="#"><img class="img float-center" src="img/img_2_159x85.jpg" alt="some_photo"></a>
+                    <table class="spacer"><tbody><tr><td height="3px" style="font-size:3px;line-height:3px;">&#xA0;</td></tr></tbody></table> 
                   </th></tr></table></th>
-                  <th class="small-12 large-4 columns last" style="Margin: 0 auto; color: #0a0a0a; font-family: Helvetica,Arial,sans-serif; font-size: 16px; font-weight: 400; line-height: 1.3; margin: 0 auto; padding: 0; padding-bottom: 0 !important; padding-left: 0; padding-right: 0; text-align: left; width: 201.33333px;"><table style="border-collapse: collapse; border-spacing: 0; padding: 0; text-align: left; vertical-align: top; width: 100%;"><tr style="padding: 0; text-align: left; vertical-align: top;"><th style="Margin: 0; color: #0a0a0a; font-family: Helvetica,Arial,sans-serif; font-size: 16px; font-weight: 400; line-height: 1.3; margin: 0; padding: 0; text-align: left;"><a href="#" style="Margin: 0; color: #2199e8; font-family: Helvetica,Arial,sans-serif; font-weight: 400; line-height: 1.3; margin: 0; padding: 0; text-align: left; text-decoration: none;"><img class="img float-center" src="img/img_3_159x85.jpg" alt="some_photo" style="-ms-interpolation-mode: bicubic; Margin: 0 auto; background: #8d8d8d; border: 0; clear: both; display: block; float: none; height: 85px; margin: 0 auto; max-width: 100%; outline: 0; text-align: center; text-decoration: none; vertical-align: top; width: 159px;"></a>
-                    <table class="spacer" style="border-collapse: collapse; border-spacing: 0; padding: 0; text-align: left; vertical-align: top; width: 100%;"><tbody><tr style="padding: 0; text-align: left; vertical-align: top;"><td height="3px" style="-moz-hyphens: auto; -webkit-hyphens: auto; Margin: 0; border-collapse: collapse !important; color: #0a0a0a; font-family: Helvetica,Arial,sans-serif; font-size: 3px; font-weight: 400; hyphens: auto; line-height: 3px; margin: 0; mso-line-height-rule: exactly; padding: 0; text-align: left; vertical-align: top; word-wrap: break-word;">&#xA0;</td></tr></tbody></table> 
+                  <th class="small-12 large-4 columns last"><table><tr><th><a href="#"><img class="img float-center" src="img/img_3_159x85.jpg" alt="some_photo"></a>
+                    <table class="spacer"><tbody><tr><td height="3px" style="font-size:3px;line-height:3px;">&#xA0;</td></tr></tbody></table> 
                   </th></tr></table></th>
                 </tr></tbody></table>
-                <table class="row collapse" style="border-collapse: collapse; border-spacing: 0; display: table; padding: 0; position: relative; text-align: left; vertical-align: top; width: 100%;"><tbody><tr style="padding: 0; text-align: left; vertical-align: top;">
-                  <th class="small-12 large-4 columns first" style="Margin: 0 auto; color: #0a0a0a; font-family: Helvetica,Arial,sans-serif; font-size: 16px; font-weight: 400; line-height: 1.3; margin: 0 auto; padding: 0; padding-bottom: 0 !important; padding-left: 0; padding-right: 0; text-align: left; width: 201.33333px;"><table style="border-collapse: collapse; border-spacing: 0; padding: 0; text-align: left; vertical-align: top; width: 100%;"><tr style="padding: 0; text-align: left; vertical-align: top;"><th style="Margin: 0; color: #0a0a0a; font-family: Helvetica,Arial,sans-serif; font-size: 16px; font-weight: 400; line-height: 1.3; margin: 0; padding: 0; text-align: left;"><a href="#" style="Margin: 0; color: #2199e8; font-family: Helvetica,Arial,sans-serif; font-weight: 400; line-height: 1.3; margin: 0; padding: 0; text-align: left; text-decoration: none;"><img class="img float-center" src="img/img_4_159x85.jpg" alt="some_photo" style="-ms-interpolation-mode: bicubic; Margin: 0 auto; background: #8d8d8d; border: 0; clear: both; display: block; float: none; height: 85px; margin: 0 auto; max-width: 100%; outline: 0; text-align: center; text-decoration: none; vertical-align: top; width: 159px;"></a>
-                    <table class="spacer" style="border-collapse: collapse; border-spacing: 0; padding: 0; text-align: left; vertical-align: top; width: 100%;"><tbody><tr style="padding: 0; text-align: left; vertical-align: top;"><td height="3px" style="-moz-hyphens: auto; -webkit-hyphens: auto; Margin: 0; border-collapse: collapse !important; color: #0a0a0a; font-family: Helvetica,Arial,sans-serif; font-size: 3px; font-weight: 400; hyphens: auto; line-height: 3px; margin: 0; mso-line-height-rule: exactly; padding: 0; text-align: left; vertical-align: top; word-wrap: break-word;">&#xA0;</td></tr></tbody></table> 
+                <table class="row collapse"><tbody><tr>
+                  <th class="small-12 large-4 columns first"><table><tr><th><a href="#"><img class="img float-center" src="img/img_4_159x85.jpg" alt="some_photo"></a>
+                    <table class="spacer"><tbody><tr><td height="3px" style="font-size:3px;line-height:3px;">&#xA0;</td></tr></tbody></table> 
                   </th></tr></table></th>
-                  <th class="small-12 large-4 columns" style="Margin: 0 auto; color: #0a0a0a; font-family: Helvetica,Arial,sans-serif; font-size: 16px; font-weight: 400; line-height: 1.3; margin: 0 auto; padding: 0; padding-bottom: 0 !important; padding-left: 0; padding-right: 0; text-align: left; width: 193.33333px;"><table style="border-collapse: collapse; border-spacing: 0; padding: 0; text-align: left; vertical-align: top; width: 100%;"><tr style="padding: 0; text-align: left; vertical-align: top;"><th style="Margin: 0; color: #0a0a0a; font-family: Helvetica,Arial,sans-serif; font-size: 16px; font-weight: 400; line-height: 1.3; margin: 0; padding: 0; text-align: left;"><a href="#" style="Margin: 0; color: #2199e8; font-family: Helvetica,Arial,sans-serif; font-weight: 400; line-height: 1.3; margin: 0; padding: 0; text-align: left; text-decoration: none;"><img class="img float-center" src="img/img_5_159x85.jpg" alt="some_photo" style="-ms-interpolation-mode: bicubic; Margin: 0 auto; background: #8d8d8d; border: 0; clear: both; display: block; float: none; height: 85px; margin: 0 auto; max-width: 100%; outline: 0; text-align: center; text-decoration: none; vertical-align: top; width: 159px;"></a>
-                    <table class="spacer" style="border-collapse: collapse; border-spacing: 0; padding: 0; text-align: left; vertical-align: top; width: 100%;"><tbody><tr style="padding: 0; text-align: left; vertical-align: top;"><td height="3px" style="-moz-hyphens: auto; -webkit-hyphens: auto; Margin: 0; border-collapse: collapse !important; color: #0a0a0a; font-family: Helvetica,Arial,sans-serif; font-size: 3px; font-weight: 400; hyphens: auto; line-height: 3px; margin: 0; mso-line-height-rule: exactly; padding: 0; text-align: left; vertical-align: top; word-wrap: break-word;">&#xA0;</td></tr></tbody></table> 
+                  <th class="small-12 large-4 columns"><table><tr><th><a href="#"><img class="img float-center" src="img/img_5_159x85.jpg" alt="some_photo"></a>
+                    <table class="spacer"><tbody><tr><td height="3px" style="font-size:3px;line-height:3px;">&#xA0;</td></tr></tbody></table> 
                   </th></tr></table></th>
-                  <th class="small-12 large-4 columns last" style="Margin: 0 auto; color: #0a0a0a; font-family: Helvetica,Arial,sans-serif; font-size: 16px; font-weight: 400; line-height: 1.3; margin: 0 auto; padding: 0; padding-bottom: 0 !important; padding-left: 0; padding-right: 0; text-align: left; width: 201.33333px;"><table style="border-collapse: collapse; border-spacing: 0; padding: 0; text-align: left; vertical-align: top; width: 100%;"><tr style="padding: 0; text-align: left; vertical-align: top;"><th style="Margin: 0; color: #0a0a0a; font-family: Helvetica,Arial,sans-serif; font-size: 16px; font-weight: 400; line-height: 1.3; margin: 0; padding: 0; text-align: left;"><a href="#" style="Margin: 0; color: #2199e8; font-family: Helvetica,Arial,sans-serif; font-weight: 400; line-height: 1.3; margin: 0; padding: 0; text-align: left; text-decoration: none;"><img class="img float-center" src="img/img_6_159x85.jpg" alt="some_photo" style="-ms-interpolation-mode: bicubic; Margin: 0 auto; background: #8d8d8d; border: 0; clear: both; display: block; float: none; height: 85px; margin: 0 auto; max-width: 100%; outline: 0; text-align: center; text-decoration: none; vertical-align: top; width: 159px;"></a>
-                    <table class="spacer" style="border-collapse: collapse; border-spacing: 0; padding: 0; text-align: left; vertical-align: top; width: 100%;"><tbody><tr style="padding: 0; text-align: left; vertical-align: top;"><td height="3px" style="-moz-hyphens: auto; -webkit-hyphens: auto; Margin: 0; border-collapse: collapse !important; color: #0a0a0a; font-family: Helvetica,Arial,sans-serif; font-size: 3px; font-weight: 400; hyphens: auto; line-height: 3px; margin: 0; mso-line-height-rule: exactly; padding: 0; text-align: left; vertical-align: top; word-wrap: break-word;">&#xA0;</td></tr></tbody></table> 
+                  <th class="small-12 large-4 columns last"><table><tr><th><a href="#"><img class="img float-center" src="img/img_6_159x85.jpg" alt="some_photo"></a>
+                    <table class="spacer"><tbody><tr><td height="3px" style="font-size:3px;line-height:3px;">&#xA0;</td></tr></tbody></table> 
                   </th></tr></table></th>
                 </tr></tbody></table>
               </td></tr></table>
             </center>
-            <table class="row" style="border-collapse: collapse; border-spacing: 0; display: table; padding: 0; position: relative; text-align: left; vertical-align: top; width: 100%;"><tbody><tr style="padding: 0; text-align: left; vertical-align: top;">
-              <th class="small-12 large-12 columns first last" style="Margin: 0 auto; color: #0a0a0a; font-family: Helvetica,Arial,sans-serif; font-size: 16px; font-weight: 400; line-height: 1.3; margin: 0 auto; padding: 0; padding-bottom: 0 !important; padding-left: 16px; padding-right: 16px; text-align: left; width: 564px;"><table style="border-collapse: collapse; border-spacing: 0; padding: 0; text-align: left; vertical-align: top; width: 100%;"><tr style="padding: 0; text-align: left; vertical-align: top;"><th style="Margin: 0; color: #0a0a0a; font-family: Helvetica,Arial,sans-serif; font-size: 16px; font-weight: 400; line-height: 1.3; margin: 0; padding: 0; text-align: left;">
-                <table class="spacer" style="border-collapse: collapse; border-spacing: 0; padding: 0; text-align: left; vertical-align: top; width: 100%;"><tbody><tr style="padding: 0; text-align: left; vertical-align: top;"><td height="35px" style="-moz-hyphens: auto; -webkit-hyphens: auto; Margin: 0; border-collapse: collapse !important; color: #0a0a0a; font-family: Helvetica,Arial,sans-serif; font-size: 35px; font-weight: 400; hyphens: auto; line-height: 35px; margin: 0; mso-line-height-rule: exactly; padding: 0; text-align: left; vertical-align: top; word-wrap: break-word;">&#xA0;</td></tr></tbody></table> 
-                <table class="wrapper wrapper-img" align="center" style="background: 0 0; border-collapse: collapse; border-spacing: 0; height: auto !important; max-width: 486px !important; padding: 0; text-align: left; vertical-align: top; width: 100%;"><tr style="padding: 0; text-align: left; vertical-align: top;"><td class="wrapper-inner" style="-moz-hyphens: auto; -webkit-hyphens: auto; Margin: 0; border-collapse: collapse !important; color: #0a0a0a; font-family: Helvetica,Arial,sans-serif; font-size: 16px; font-weight: 400; hyphens: auto; line-height: 1.3; margin: 0; padding: 0; text-align: left; vertical-align: top; word-wrap: break-word;">
+            <table class="row"><tbody><tr>
+              <th class="small-12 large-12 columns first last"><table><tr><th>
+                <table class="spacer"><tbody><tr><td height="35px" style="font-size:35px;line-height:35px;">&#xA0;</td></tr></tbody></table> 
+                <table class="wrapper wrapper-img" align="center"><tr><td class="wrapper-inner">
           
-                  <p class="text text-center" style="Margin: 0; color: #8d8d8d; font-family: Helvetica,Arial,sans-serif; font-size: 16px; font-weight: 400; line-height: 24px; margin: 0; padding: 0; text-align: center;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum rerum architecto labore incidunt tenetur dicta veniam sunt suscipit quis at pariatur, adipisci similique laborum saepe fuga, optio soluta voluptas! Cupiditate.</p>
+                  <p class="text text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum rerum architecto labore incidunt tenetur dicta veniam sunt suscipit quis at pariatur, adipisci similique laborum saepe fuga, optio soluta voluptas! Cupiditate.</p>
           
                 </td></tr></table>
               </th>
-<th class="expander" style="Margin: 0; color: #0a0a0a; font-family: Helvetica,Arial,sans-serif; font-size: 16px; font-weight: 400; line-height: 1.3; margin: 0; padding: 0 !important; text-align: left; visibility: hidden; width: 0;"></th></tr></table></th>
+<th class="expander"></th></tr></table></th>
             </tr></tbody></table>
-            <table class="spacer" style="border-collapse: collapse; border-spacing: 0; padding: 0; text-align: left; vertical-align: top; width: 100%;"><tbody><tr style="padding: 0; text-align: left; vertical-align: top;"><td height="35px" style="-moz-hyphens: auto; -webkit-hyphens: auto; Margin: 0; border-collapse: collapse !important; color: #0a0a0a; font-family: Helvetica,Arial,sans-serif; font-size: 35px; font-weight: 400; hyphens: auto; line-height: 35px; margin: 0; mso-line-height-rule: exactly; padding: 0; text-align: left; vertical-align: top; word-wrap: break-word;">&#xA0;</td></tr></tbody></table> 
-            <table class="row" style="border-collapse: collapse; border-spacing: 0; display: table; padding: 0; position: relative; text-align: left; vertical-align: top; width: 100%;"><tbody><tr style="padding: 0; text-align: left; vertical-align: top;">
-              <th class="small-12 large-12 columns first last" style="Margin: 0 auto; color: #0a0a0a; font-family: Helvetica,Arial,sans-serif; font-size: 16px; font-weight: 400; line-height: 1.3; margin: 0 auto; padding: 0; padding-bottom: 0 !important; padding-left: 16px; padding-right: 16px; text-align: left; width: 564px;"><table style="border-collapse: collapse; border-spacing: 0; padding: 0; text-align: left; vertical-align: top; width: 100%;"><tr style="padding: 0; text-align: left; vertical-align: top;"><th style="Margin: 0; color: #0a0a0a; font-family: Helvetica,Arial,sans-serif; font-size: 16px; font-weight: 400; line-height: 1.3; margin: 0; padding: 0; text-align: left;">
-                <center data-parsed="" style="min-width: 532px; width: 100%;"><table class="button btn float-center" style="Margin: 0; border-collapse: collapse; border-spacing: 0; float: none; margin: 0; padding: 0; text-align: center; vertical-align: top; width: auto;"><tr style="padding: 0; text-align: left; vertical-align: top;"><td style="-moz-hyphens: auto; -webkit-hyphens: auto; Margin: 0; background: #fb7e3b; border: 0; border-collapse: collapse !important; border-radius: 3px; color: #0a0a0a; font-family: Helvetica,Arial,sans-serif; font-size: 16px; font-weight: 400; hyphens: auto; line-height: 1.3; margin: 0; mso-padding-alt: 5px 10px; padding: 0; text-align: left; vertical-align: top; word-wrap: break-word;"><table style="border-collapse: collapse; border-spacing: 0; padding: 0; text-align: left; vertical-align: top; width: 100%;"><tr style="padding: 0; text-align: left; vertical-align: top;"><td style="-moz-hyphens: auto; -webkit-hyphens: auto; Margin: 0; background: #fb7e3b; border: 0; border-collapse: collapse !important; border-radius: 3px; color: #fefefe; font-family: Helvetica,Arial,sans-serif; font-size: 16px; font-weight: 400; hyphens: auto; line-height: 1.3; margin: 0; mso-padding-alt: 5px 10px; padding: 0; text-align: left; vertical-align: top; word-wrap: break-word;"><a href="#" style="Margin: 0; background-image: linear-gradient(#fb823d,#ee5d1d); border: 1px solid #fb7e3b; border-radius: 3px; box-shadow: 0 1px 2px rgba(0,0,0,.5); color: #fff; display: block; font-family: Helvetica,Arial,sans-serif; font-size: 18px; font-weight: 400; height: 44px; line-height: 44px; margin: 0; padding: 0 !important; text-align: center; text-decoration: none; width: 144px;">Visit Now</a></td></tr></table></td></tr></table></center>
+            <table class="spacer"><tbody><tr><td height="35px" style="font-size:35px;line-height:35px;">&#xA0;</td></tr></tbody></table> 
+            <table class="row"><tbody><tr>
+              <th class="small-12 large-12 columns first last"><table><tr><th>
+                <center data-parsed><table class="button btn float-center"><tr><td><table><tr><td><a href="#">Visit Now</a></td></tr></table></td></tr></table></center>
               </th>
-<th class="expander" style="Margin: 0; color: #0a0a0a; font-family: Helvetica,Arial,sans-serif; font-size: 16px; font-weight: 400; line-height: 1.3; margin: 0; padding: 0 !important; text-align: left; visibility: hidden; width: 0;"></th></tr></table></th>
+<th class="expander"></th></tr></table></th>
             </tr></tbody></table>
-            <table class="wrapper envelope" align="center" style="background-image: url(img/envelope.png); background-position: 50% 0; background-repeat: no-repeat; background-size: 101% 100%; border-collapse: collapse; border-spacing: 0; padding: 0; text-align: left; vertical-align: top; width: 100%;"><tr style="padding: 0; text-align: left; vertical-align: top;"><td class="wrapper-inner" style="-moz-hyphens: auto; -webkit-hyphens: auto; Margin: 0; border-collapse: collapse !important; color: #0a0a0a; font-family: Helvetica,Arial,sans-serif; font-size: 16px; font-weight: 400; hyphens: auto; line-height: 1.3; margin: 0; padding: 0; text-align: left; vertical-align: top; word-wrap: break-word;">
-                <table class="spacer" style="border-collapse: collapse; border-spacing: 0; padding: 0; text-align: left; vertical-align: top; width: 100%;"><tbody><tr style="padding: 0; text-align: left; vertical-align: top;"><td height="84px" style="-moz-hyphens: auto; -webkit-hyphens: auto; Margin: 0; border-collapse: collapse !important; color: #0a0a0a; font-family: Helvetica,Arial,sans-serif; font-size: 84px; font-weight: 400; hyphens: auto; line-height: 84px; margin: 0; mso-line-height-rule: exactly; padding: 0; text-align: left; vertical-align: top; word-wrap: break-word;">&#xA0;</td></tr></tbody></table> 
-            <table class="row" style="border-collapse: collapse; border-spacing: 0; display: table; padding: 0; position: relative; text-align: left; vertical-align: top; width: 100%;"><tbody><tr style="padding: 0; text-align: left; vertical-align: top;">
-              <center data-parsed="" style="min-width: 580px; width: 100%;"><img class="stop float-center" src="img/stop_46x46.png" alt="stop" align="center" style="-ms-interpolation-mode: bicubic; Margin: 0 auto; clear: both; display: block; float: none; height: 46px; margin: 0 auto; max-width: 100%; outline: 0; text-align: center; text-decoration: none; width: 46px;"></center>
+            <table class="wrapper envelope" align="center"><tr><td class="wrapper-inner">
+                <table class="spacer"><tbody><tr><td height="84px" style="font-size:84px;line-height:84px;">&#xA0;</td></tr></tbody></table> 
+            <table class="row"><tbody><tr>
+              <center data-parsed><img class="stop float-center" src="img/stop_46x46.png" alt="stop" align="center"></center>
             </tr></tbody></table>
-            <table class="spacer" style="border-collapse: collapse; border-spacing: 0; padding: 0; text-align: left; vertical-align: top; width: 100%;"><tbody><tr style="padding: 0; text-align: left; vertical-align: top;"><td height="20px" style="-moz-hyphens: auto; -webkit-hyphens: auto; Margin: 0; border-collapse: collapse !important; color: #0a0a0a; font-family: Helvetica,Arial,sans-serif; font-size: 20px; font-weight: 400; hyphens: auto; line-height: 20px; margin: 0; mso-line-height-rule: exactly; padding: 0; text-align: left; vertical-align: top; word-wrap: break-word;">&#xA0;</td></tr></tbody></table> 
-            <table class="row" style="border-collapse: collapse; border-spacing: 0; display: table; padding: 0; position: relative; text-align: left; vertical-align: top; width: 100%;"><tbody><tr style="padding: 0; text-align: left; vertical-align: top;">
-              <p class="tiny-text text-center" style="Margin: 0; color: #666; font-family: Helvetica,Arial,sans-serif; font-size: 11px; font-weight: 400; line-height: 1.3; margin: 0; padding: 0; text-align: center;">If you no longer wish to receive these messages,<br> you may unsubscribe by <a class="link" href="#" style="Margin: 0; color: #fb7e3b; font-family: Helvetica,Arial,sans-serif; font-weight: 400; line-height: 1.3; margin: 0; padding: 0; text-align: left; text-decoration: none;">clicking here</a>.</p>
+            <table class="spacer"><tbody><tr><td height="20px" style="font-size:20px;line-height:20px;">&#xA0;</td></tr></tbody></table> 
+            <table class="row"><tbody><tr>
+              <p class="tiny-text text-center">If you no longer wish to receive these messages,<br> you may unsubscribe by <a class="link" href="#">clicking here</a>.</p>
             </tr></tbody></table>
-            <table class="spacer" style="border-collapse: collapse; border-spacing: 0; padding: 0; text-align: left; vertical-align: top; width: 100%;"><tbody><tr style="padding: 0; text-align: left; vertical-align: top;"><td height="55px" style="-moz-hyphens: auto; -webkit-hyphens: auto; Margin: 0; border-collapse: collapse !important; color: #0a0a0a; font-family: Helvetica,Arial,sans-serif; font-size: 55px; font-weight: 400; hyphens: auto; line-height: 55px; margin: 0; mso-line-height-rule: exactly; padding: 0; text-align: left; vertical-align: top; word-wrap: break-word;">&#xA0;</td></tr></tbody></table> 
+            <table class="spacer"><tbody><tr><td height="55px" style="font-size:55px;line-height:55px;">&#xA0;</td></tr></tbody></table> 
             </td></tr></table>
           
           </td></tr></tbody></table>
           
-          <table class="spacer float-center" style="Margin: 0 auto; border-collapse: collapse; border-spacing: 0; float: none; margin: 0 auto; padding: 0; text-align: center; vertical-align: top; width: 100%;"><tbody><tr style="padding: 0; text-align: left; vertical-align: top;"><td height="20px" style="-moz-hyphens: auto; -webkit-hyphens: auto; Margin: 0; border-collapse: collapse !important; color: #0a0a0a; font-family: Helvetica,Arial,sans-serif; font-size: 20px; font-weight: 400; hyphens: auto; line-height: 20px; margin: 0; mso-line-height-rule: exactly; padding: 0; text-align: left; vertical-align: top; word-wrap: break-word;">&#xA0;</td></tr></tbody></table> 
-          <table align="center" class="container float-center" style="Margin: 0 auto; background: #313131; border-collapse: collapse; border-spacing: 0; float: none; margin: 0 auto; padding: 0; text-align: center; vertical-align: top; width: 580px;"><tbody><tr style="padding: 0; text-align: left; vertical-align: top;"><td style="-moz-hyphens: auto; -webkit-hyphens: auto; Margin: 0; border-collapse: collapse !important; color: #0a0a0a; font-family: Helvetica,Arial,sans-serif; font-size: 16px; font-weight: 400; hyphens: auto; line-height: 1.3; margin: 0; padding: 0; text-align: left; vertical-align: top; word-wrap: break-word;">
-            <table class="row" style="border-collapse: collapse; border-spacing: 0; display: table; padding: 0; position: relative; text-align: left; vertical-align: top; width: 100%;"><tbody><tr style="padding: 0; text-align: left; vertical-align: top;">
-              <th class="small-12 large-12 columns first last" style="Margin: 0 auto; color: #0a0a0a; font-family: Helvetica,Arial,sans-serif; font-size: 16px; font-weight: 400; line-height: 1.3; margin: 0 auto; padding: 0; padding-bottom: 0 !important; padding-left: 16px; padding-right: 16px; text-align: left; width: 564px;"><table style="border-collapse: collapse; border-spacing: 0; padding: 0; text-align: left; vertical-align: top; width: 100%;"><tr style="padding: 0; text-align: left; vertical-align: top;"><th style="Margin: 0; color: #0a0a0a; font-family: Helvetica,Arial,sans-serif; font-size: 16px; font-weight: 400; line-height: 1.3; margin: 0; padding: 0; text-align: left;">
-                <p class="tiny-text text-center" style="Margin: 0; color: #666; font-family: Helvetica,Arial,sans-serif; font-size: 11px; font-weight: 400; line-height: 1.3; margin: 0; padding: 0; text-align: center;">
+          <table class="spacer float-center"><tbody><tr><td height="20px" style="font-size:20px;line-height:20px;">&#xA0;</td></tr></tbody></table> 
+          <table align="center" class="container float-center"><tbody><tr><td>
+            <table class="row"><tbody><tr>
+              <th class="small-12 large-12 columns first last"><table><tr><th>
+                <p class="tiny-text text-center">
                   &#169; Copyright 2018. All Rights Reserved</p>
               </th>
-<th class="expander" style="Margin: 0; color: #0a0a0a; font-family: Helvetica,Arial,sans-serif; font-size: 16px; font-weight: 400; line-height: 1.3; margin: 0; padding: 0 !important; text-align: left; visibility: hidden; width: 0;"></th></tr></table></th>
+<th class="expander"></th></tr></table></th>
             </tr></tbody></table>
           </td></tr></tbody></table>
-          <table class="spacer float-center" style="Margin: 0 auto; border-collapse: collapse; border-spacing: 0; float: none; margin: 0 auto; padding: 0; text-align: center; vertical-align: top; width: 100%;"><tbody><tr style="padding: 0; text-align: left; vertical-align: top;"><td height="25px" style="-moz-hyphens: auto; -webkit-hyphens: auto; Margin: 0; border-collapse: collapse !important; color: #0a0a0a; font-family: Helvetica,Arial,sans-serif; font-size: 25px; font-weight: 400; hyphens: auto; line-height: 25px; margin: 0; mso-line-height-rule: exactly; padding: 0; text-align: left; vertical-align: top; word-wrap: break-word;">&#xA0;</td></tr></tbody></table> 
+          <table class="spacer float-center"><tbody><tr><td height="25px" style="font-size:25px;line-height:25px;">&#xA0;</td></tr></tbody></table> 
         </center>
       </td>
     </tr>
