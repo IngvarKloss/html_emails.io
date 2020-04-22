@@ -2,7 +2,8 @@ $global-padding: 0;
 
 // user's_colors
 // backgrounds
-$user-white: #ffffff;
+$user-white: $white;
+// $user-white: #ffffff;
 $user-white_1: #f6f6f6;
 $user-gray: #58616a;
 $user-gray_1: #95a5a5; //header-font too

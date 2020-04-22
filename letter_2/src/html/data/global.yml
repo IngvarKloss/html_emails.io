@@ -1,12 +1,24 @@
-# original images
+# images from lorem picsum
 
 set_0:
--  img/img_1_159x85.jpg
--  img/img_2_159x85.jpg
--  img/img_3_159x85.jpg
+-  "https://i9.wampi.ru/2020/04/12/img_1_159x85.jpg"
+-  "https://i9.wampi.ru/2020/04/12/img_2_159x85.jpg"
+-  "https://i9.wampi.ru/2020/04/12/img_3_159x85.jpg"
 set_1:
--  img/img_4_159x85.jpg
--  img/img_5_159x85.jpg
--  img/img_6_159x85.jpg
+-  "https://i9.wampi.ru/2020/04/12/img_4_159x85.jpg"
+-  "https://i9.wampi.ru/2020/04/12/img_5_159x85.jpg"
+-  "https://i9.wampi.ru/2020/04/12/img_6_159x85.jpg"
 
-stop_src: img/stop_46x46.png
+stop_src: "https://i9.wampi.ru/2020/04/12/stop_46_46.png"
+
+src/159/85: &src/159/85 "https://picsum.photos/159/85"
+_set_0:
+-  *src/159/85
+-  *src/159/85
+-  *src/159/85
+_set_1:
+-  *src/159/85
+-  *src/159/85
+-  *src/159/85
+
+_stop_src: "https://picsum.photos/46/46"

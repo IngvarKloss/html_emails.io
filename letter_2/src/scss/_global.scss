@@ -9,7 +9,7 @@
 //// user-styles
 
 // background
-$user-gray: #313131;
+$user-gray: #2f2f2f;
 $user-white: #ffffff;
 
 //button from #ee5d1d to #fb823d
@@ -68,7 +68,7 @@ $pre-color: #ff6908 !default;
 
 /// Width of the container.
 /// @type Number
-$global-width: 580px !default;
+$global-width: 635px !default;
 
 /// Width of the container on small screens.
 /// @type Length
@@ -104,7 +104,7 @@ $global-rounded: 500px !default;
 
 /// Global media query to switch from desktop to mobile styles.
 /// @type String
-$global-breakpoint: $global-width + $global-gutter !default;
+$global-breakpoint: $global-width - $global-gutter !default;
 
 .wrapper {
   width: 100%;

@@ -1,0 +1,27 @@
+# original images
+logo:  "img/logo_333x97.png"
+hero_img:  "img/hero_696x371.jpg"
+
+image_1: "img/image_01_336x225.jpg"
+image_2: "img/image_02_332x221.jpg"
+image_3: "img/image_03_331x221.jpg"
+
+set_1:
+- icon:    "img/socials/facebook_35x35.png"
+  alt:    "facebook"
+  href:   "http://www.EXAMPLE.com/"
+- icon:    "img/socials/google-plus_35x35.png"
+  alt:    "google-plus"
+  href:   "http://www.EXAMPLE.com/"
+- icon:    "img/socials/ig_35x35.png"
+  alt:    "instagram"
+  href:   "http://www.EXAMPLE.com/"
+- icon:    "img/socials/linkedin_35x35.png"
+  alt:    "linkedin"
+  href:   "http://www.EXAMPLE.com/"
+- icon:    "img/socials/pinterest_35x35.png"
+  alt:    "pinterest"
+  href:   "http://www.EXAMPLE.com/"
+- icon:    "img/socials/twitter_35x35.png"
+  alt:    "twitter"
+  href:   "http://www.EXAMPLE.com/"

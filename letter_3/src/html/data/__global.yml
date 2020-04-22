@@ -30,8 +30,8 @@ set_2:
 - Psum pharetra amet
 
 #social_icon's_img
-facebook: "img/icon_facebook(18x33).png"
-twitter: "img/icon_twitter(36x25).png"
+facebook: "img/social_fb_18_33.png"
+twitter: "img/social_tw_36_25.png"
 
 #gallery
 image_0:       "img/image_1(158x145).jpg"

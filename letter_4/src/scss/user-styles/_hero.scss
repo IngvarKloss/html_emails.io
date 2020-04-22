@@ -1,0 +1,19 @@
+table.body {
+  & .hero {
+    & .heading_h1 {
+      @include u_heading($font-size: $u-h1)
+      color: $u_yellow;
+    }
+
+    & .heading_h2 {
+      @include u_common_text;
+      font-weight: bold;
+      line-height: 1;
+    }
+
+    & .image {
+      width: 696px;
+      height: 371px;
+    }
+  }
+}

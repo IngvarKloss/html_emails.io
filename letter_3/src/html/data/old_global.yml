@@ -1,0 +1,53 @@
+# images from Lorem Picsum
+
+logo_top:    "https://picsum.photos/114/28"
+hero_img:    "https://picsum.photos/201/240"
+
+#main_left
+set_1:
+ - image:      "https://picsum.photos/78/59"
+   title_h3:   "Cloud Storage Discounts"
+   img_class:  "img-1"
+   text:       "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro ab quia cumque nam deleniti voluptas quis nostrum."
+
+ - image:      "https://picsum.photos/61/44"
+   title_h3:   "Filesystem Permissions"
+   img_class:  "img-2"
+   text:       "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro ab quia cumque nam deleniti voluptas quis nostrum."
+
+ - image:      "https://picsum.photos/59/59"
+   title_h3:   "No Limits"
+   img_class:  "img-3"
+   text:       "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro ab quia cumque nam deleniti voluptas quis nostrum."
+
+#main_right
+set_2:
+- Quisque sagittis sapien
+- Ut ipsum pharetra
+- Fermentum in ut
+- Lectus in turpis commodo
+- Ullamcorper dolor
+- Psum pharetra amet
+
+#social_icon's_img
+facebook: "https://picsum.photos/18/33"
+twitter: "https://picsum.photos/36/25"
+
+image_1(158x145): &img-1 "https://picsum.photos/158/145"
+image_2(322x145): &img-2 "https://picsum.photos/322/145"
+
+#gallery
+image_0:       *img-1
+alt_0:         "some_photo"
+image_1:       *img-1
+alt_1:         "some_photo"
+image_2:       *img-2
+alt_2:         "some_photo"
+image_3:       *img-2
+alt_3:         "some_photo"
+image_4:       *img-1
+alt_4:         "some_photo"
+image_5:       *img-1
+alt_5:         "some_photo"
+
+logo_bottom:   "https://picsum.photos/114/27"

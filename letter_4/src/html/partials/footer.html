@@ -1,0 +1,60 @@
+<spacer size='48'></spacer>
+<container class="footer">
+  <wrapper>
+    <spacer size='35'></spacer>
+    <row class="collapse">
+      <columns>
+        <p class="text-center text-wrap"><span class="text">Follow us on social media</span> </p>
+      </columns>
+    </row>
+    <spacer size='25'></spacer>
+    <row>
+      <columns>
+        <center>
+          <table class="icon-wrapper" cellspacing="0" cellpadding="0">
+            <tr>
+              {{#each global.set_1}}
+                <td>
+                  <a href="{{href}}">
+                    <img class="icon float-center" src="{{icon}}" alt="{{alt}}">
+                  </a>
+                </td>
+              {{/each}}
+            </tr>
+          </table>
+        </center>
+      </columns>
+    </row>
+    <spacer size='25'></spacer>
+  </wrapper>
+  <spacer size='30'></spacer>
+  <row>
+    <!-- <columns large='1' small='12'></columns> -->
+    <columns large='2' small='12'>
+      <p class="small-text-center"><a class="text-center link" href="#">Privacy&#160;Policy</a></p>
+
+    </columns>
+    <columns large='2' small='12'>
+      <p class="small-text-center">
+        <a class="text-center link" href="#">Terms&#160;of&#160;Use</a></p>
+    </columns>
+    <columns large='2' small='12'>
+      <p class="small-text-center">
+        <a class="text-center link" href="#">Contact&#160;Us</a></p>
+    </columns>
+    <columns large='4' small='12'>
+      <p class="small-text-center">
+        <a class="text-center link" href="#">Manage&#160;Email&#160;Preferences</a></p>
+    </columns>
+    <columns large='2' small='12'>
+      <p class="small-text-center">
+        <a class="text-center link" href="#">Unsubscribe</a></p>
+    </columns>
+    <!-- <columns large='1' small='12'></columns> -->
+  </row>
+  <spacer size='34'></spacer>
+  <row><columns>
+    <p class="text-wrap text-center"><span class="text">&#169; {{date}}</span></p>
+  </columns></row>
+  <spacer size='10'></spacer>
+</container>

@@ -2,8 +2,6 @@ table.body {
   & .hero {
     background: $u-green;
 
-
-
     & .first {
       padding-left: 40px;
     }
@@ -24,21 +22,24 @@ table.body {
       border-bottom-width: 4px;
       border-bottom-style: solid;
       border-bottom-color: $u-green_3;
+      mso-hide:all;
     }
 
     & .button a {
       font-size: $u-normal-2;
       padding: 0;
       text-align: center;
-      display: block;
+      text-decoration:none;
+      display: inline-block;
       width: 128px;
       height: 58px;
       line-height: 58px;
-      //style for Outlook
-      mso-padding-alt:  20px 30px;
+      -webkit-text-size-adjust:none;
+
     }
 
-    @media only screen and (max-width: 636px) {
+    @media only screen and (max-width: $global-breakpoint) {
+
       & .button {
         float: right;
       }

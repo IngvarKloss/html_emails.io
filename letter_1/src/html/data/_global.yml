@@ -11,16 +11,24 @@ set_1:
  - image:  img/hum_4_130x130.png
    name:     "John Deere"
    text:     "Lorem ipsum dolor sit amet consectetur adipisicing elit."
+   link:     "http://www.example.com/"
+   btext:    "Follow"
+
    spacer:   "<spacer size='25'></spacer>"
 
  - image:  img/hum_5_130x130.png
    name:     "Annie Johns"
    text:     "Odio magnam dolorum accusantium expedita sint fugit saepe non error!"
+   link:     "http://www.example.com/"
+   btext:    "Follow+"
    spacer:   "<spacer size='10'></spacer>"
 
  - image:  "img/hum_6_130x130.png"
    name:     "Debie Deere"
    text:     "Odio magnam dolorum accusantium expedita sint fugit saepe non error!"
+   link:     "http://www.example.com/"
+   btext:    "Follow++"
+
    spacer:   "<spacer size='10'></spacer>"
 
 set_2:

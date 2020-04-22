@@ -1,0 +1,36 @@
+# images from Lorem Picsum
+
+logo:  "https://picsum.photos/333/97"
+hero_img:  "https://picsum.photos/696/371"
+
+image_1: "https://picsum.photos/336/225.jpg"
+image_2: "https://picsum.photos/332/221.jpg"
+image_3: "https://picsum.photos/331/221.jpg"
+
+src: &src/35/35 "https://picsum.photos/35/35"
+href: &href  "http://www.EXAMPLE.com/"
+set_1:
+-
+   icon:   *src/35/35
+   alt:    "facebook"
+   href:   *href
+-
+   icon:   *src/35/35
+   alt:    "google-plus"
+   href:   *href
+-
+   icon:   *src/35/35
+   alt:    "instagram"
+   href:   *href
+-
+   icon:   *src/35/35
+   alt:    "linkedin"
+   href:   *href
+-
+   icon:   *src/35/35
+   alt:    "pinterest"
+   href:   *href
+-
+   icon:   *src/35/35
+   alt:    "twitter"
+   href:   *href

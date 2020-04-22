@@ -1,0 +1,34 @@
+table.body {
+
+  & .main {
+
+    & .heading_h2 {
+      @include u_heading($font-size: $u-h2)
+    }
+
+    & .image_1 {
+      width: 336px;
+      height: 225px;
+    }
+    & .image_2 {
+      width: 332px;
+      height: 221px;
+    }
+    & .image_3 {
+      width: 331px;
+      height: 221px;
+    }
+
+    & .heading_h3 {
+      @include u_heading;
+    }
+
+    & .text {
+      @include u_common_text;
+    }
+
+    & .u_button {
+        @include u_button;
+    }
+  }
+}

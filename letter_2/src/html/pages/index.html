@@ -1,27 +1,58 @@
+---
+link: "http://www.EXAMPLE.com/"
+text: "Visit Now"
+---
 
 <container class="main">
+  <!-- background begin -->
+  <table cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+      <td class='bg-img' background="https://i9.wampi.ru/2020/04/12/sheets_bg_635_5.png" bgcolor="#2f2f2f" valign="top">
+        <!--[if gte mso 9]>
+        <v:rect xmlns:v="urn:schemas-microsoft-com:vml" fill="true" stroke="false" style="mso-width-percent:1000;">
+          <v:fill type="tile" src="https://i9.wampi.ru/2020/04/12/sheets_bg_635_5.png" color="#2f2f2f" />
+          <v:textbox style="mso-fit-shape-to-text:true" inset="0,0,0,0">
+        <![endif]-->
+        <div>
+          <!-- background end -->
 
-  {{> title}}
-  <spacer size='40'></spacer>
-  <center>
-    {{> gallery}}
-  </center>
-  <row>
-    <columns>
-      <spacer size='35'></spacer>
-      <wrapper class="wrapper-img">
+          {{> title}}
+          <spacer size='40'></spacer>
+          <center>
+            {{> gallery}}
+          </center>
+          <row>
+            <columns>
+              <spacer size='35'></spacer>
+              <wrapper class="content-wrapper">
 
-        <p class="text text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum rerum architecto labore incidunt tenetur dicta veniam sunt suscipit quis at pariatur, adipisci similique laborum saepe fuga, optio soluta voluptas! Cupiditate.</p>
+                <p class="text text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum rerum architecto labore incidunt tenetur dicta veniam sunt suscipit quis at pariatur, adipisci similique laborum saepe fuga, optio soluta
+                  voluptas! Cupiditate.</p>
 
-      </wrapper>
-    </columns>
-  </row>
-  <spacer size='35'></spacer>
-  <row>
-    <columns>
-      <center><button class="btn" href="#">Visit Now</button></center>
-    </columns>
-  </row>
-  {{> envelope}}
+              </wrapper>
+            </columns>
+          </row>
+          <spacer size='35'></spacer>
+          <row>
+            <columns>
+              <center>
+
+                {{> button}}
+
+              </center>
+            </columns>
+          </row>
+          {{> envelope}}
+
+          <!-- background begin -->
+        </div>
+        <!--[if gte mso 9]>
+  </v:textbox>
+</v:rect>
+<![endif]-->
+      </td>
+    </tr>
+  </table>
+  <!-- background end -->
 
 </container>

@@ -1,0 +1,12 @@
+# original images
+
+set_0:
+-  img/img_1_159x85.jpg
+-  img/img_2_159x85.jpg
+-  img/img_3_159x85.jpg
+set_1:
+-  img/img_4_159x85.jpg
+-  img/img_5_159x85.jpg
+-  img/img_6_159x85.jpg
+
+stop_src: "img/stop_46_46.png"

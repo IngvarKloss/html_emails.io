@@ -17,11 +17,39 @@
 
           <spacer size='10'></spacer>
 
-            <h2 class='title_2 text-center'>{{name}}</h2>
+          <h2 class='title_2 text-center'>{{name}}</h2>
           <spacer size='10'></spacer>
           <p class="text_2 text-center"> {{text}} </p>
           {{{spacer}}}
-          <button class="expanded" href="#">Follow +</button>
+
+          <!-- button begin -->
+          <table class="wrapper" align="center">
+            <tr>
+              <td class="wrapper-inner text-center">
+                <!--[if mso]>
+            <v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="{{link}}" style="height:35px;v-text-anchor:middle;width:100%;" arcsize="18%" strokecolor="#888e94" fillcolor="#888e94">
+              <w:anchorlock/>
+              <center style="color:#f6f6f6;font-family:sans-serif;font-size:14px;font-weight:bold;">{{btext}}</center>
+            </v:roundrect>
+          <![endif]-->
+                <![if !mso]>
+                <table class="button expanded team_button " cellspacing="0" cellpadding="0" style="mso-hide:all;" align="center">
+                  <tr>
+                    <td>
+                      <table>
+                        <tr>
+                          <td><a href="{{link}}">{{btext}}</a></td>
+                        </tr>
+                      </table>
+                    </td>
+                  </tr>
+                </table>
+                <![endif]>
+              </td>
+            </tr>
+          </table>
+          <!-- button end -->
+
           <spacer size='10'></spacer>
         </center>
       </columns>

@@ -1,0 +1,56 @@
+@mixin clear {
+  padding: 0;
+  line-height: 1;
+  margin: 0;
+  Margin: 0;
+}
+
+h1,
+h2,
+h3,
+p,
+table.button {
+  @include clear;
+}
+
+@mixin circled {
+  border-radius: 50%;
+}
+
+@mixin u_heading($font-size: $u-h3, $line-height: $u-lineht) {
+  font-family: 'Bebas Neue', Arial, sans-serif;
+  color: $u_black;
+  font-size:  $font-size;
+  line-height: $line-height;
+  text-transform: uppercase;
+}
+
+@mixin u_button {
+  & table {
+    td {
+      background-color: $u_yellow;
+    }
+  }
+  & table {
+    td :hover {
+     background-color: darken($u_yellow, 10%);
+     color: $u-white;
+   }
+  }
+
+  & a {
+  color: $u_black;
+  font-family: 'Bebas Neue', Arial, sans-serif;
+  font-size:  $u-button;
+  font-weight: normal;
+  line-height: $u-lineht;
+  padding: 13px 65px 10px 65px;
+  }
+}
+@mixin u_common_text($font-size: $u-commontext-fz ) {
+  color: $u_black;
+  font-family: Arial, sans-serif;
+  font-size:  $font-size;
+  font-weight: normal;
+  line-height: $u-commontext-lineht;
+}

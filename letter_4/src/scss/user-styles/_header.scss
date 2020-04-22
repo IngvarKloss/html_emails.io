@@ -1,0 +1,43 @@
+
+table.body{
+  & .pre-header {
+    background-color: $u-white;
+
+    .text-wrap {
+      line-height: $u-lineht;
+    }
+
+    & .link,
+    & .text {
+      color: $black;
+      font-size: $small-font-size;
+    }
+
+    & .link {
+      text-decoration: underline;
+    }
+  }
+}
+table.body{
+  & .header-color {
+  background-color: $u-yellow;
+}
+  & .header {
+    background-color: $u-yellow;
+
+    & .logo {
+      // margin-left: -35px;
+      width: 333px;
+      height: 97px;
+    }
+
+    & .link,
+    & .text {
+
+    }
+
+    & .link {
+      text-decoration: underline;
+    }
+  }
+}

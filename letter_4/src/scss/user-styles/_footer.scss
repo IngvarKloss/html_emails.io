@@ -1,0 +1,23 @@
+table.body {
+  & .footer {
+    & .wrapper {
+      background-color: $u_yellow;
+    }
+
+    & .text {
+      @include u_common_text;
+      line-height: 1;
+    }
+    & .icon-wrapper {
+      width: 300px;
+      & .icon {
+        border-radius: 500px;
+        height: 30px;
+        width: 30px;
+      }
+    }
+    & .link{
+      @include u_common_text($font-size: $under-footer-fz)
+    }
+  }
+}

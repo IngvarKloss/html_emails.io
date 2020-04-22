@@ -18,15 +18,8 @@ table.body {
       line-height: 20px;
     }
 
-    & .link {
-      border-width: 1px;
-      border-style: solid;
-      border-color: $user-white;
-      color: $user-white;
-      font-size: $main-fz;
-      border-radius: 6px;
-      padding: 5px 10px;
-      mso-padding-alt: 5px 10px;
+    & .body_button {
+      @include button_1($user-gray_1, $user-white_1);
     }
   }
 }
