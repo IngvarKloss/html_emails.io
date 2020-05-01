@@ -19,19 +19,21 @@ table.body {
         width: 158px;
       }
 
-      & .image_158x145 {
-        // width: 158px;
-      }
-
-      & .image_322x145 {
-        // width: 322px;
-      }
-
       & .image_158x145,
       & .image_322x145 {
         height: 145px;
-        width: 100%;
+        // width: 100%;
       }
+
+      & .image_158x145 {
+        width: 158px;
+      }
+
+      & .image_322x145 {
+        width: 322px;
+      }
+
+
     }
   }
 }

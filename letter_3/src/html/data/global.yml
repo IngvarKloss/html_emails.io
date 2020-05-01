@@ -1,5 +1,4 @@
-# images from Lorem Picsum
-
+# original images from a cloud storage
 logo_top:    "https://i9.wampi.ru/2020/04/20/logo_114x28.png"
 hero_img:    "https://i9.wampi.ru/2020/04/20/hero_201x240.png"
 
@@ -39,7 +38,7 @@ image_2(322x145): &img-2 "https://picsum.photos/322/145"
 #gallery
 image_0:       "https://i9.wampi.ru/2020/04/20/image_1158x145.jpg"
 alt_0:         "some_photo"
-image_1:       "https://i9.wampi.ru/2020/04/20/image_2158x145.jpg"
+image_1:       "https://i2.wampi.ru/2020/05/01/image_2158x145.jpg"
 alt_1:         "some_photo"
 image_2:       "https://i9.wampi.ru/2020/04/20/image_3322x145.jpg"
 alt_2:         "some_photo"

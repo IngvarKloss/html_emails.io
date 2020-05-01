@@ -39,28 +39,26 @@ table.body {
       font-weight: bold;
     }
 
-    & .text {
-      color: $u-gray_7;
-    }
 
     & .link {
-      & .bullet {
-         color: $u-red;
-       }
 
+      & .bullet,
+      & .text {
+          color: $u-red;
+          font-size: $u-small;
+      }
       & .text {
         text-decoration: underline;
-        color: $u-red;
-      }
-      & .bullet, & .text {
-          font-size: $u-small;
       }
     }
 
     & .text {
+      color: $u-gray_7;
       font-size: $u-small;
       line-height: $u-small_lh;
+      text-decoration: none;
     }
+
 
     & .items {
       @include doubledBorder;

@@ -25,20 +25,19 @@ table.body {
 
       & .f_column,
       & .s_column {
+
         height: 107px;
-        // width: 107px;
         width: 48%;
         vertical-align: middle;
       }
 
-      & .f_column {
-        background-color: #318dff;
-      }
 
-      & .s_column {
-        background-color: #00c0ff;
-      }
+      & .facebook,
+      & .twitter {
+      display: inline-block;
+      vertical-align: middle;
 
+      }
       & .facebook {
         height: 33px;
         width: 18px;

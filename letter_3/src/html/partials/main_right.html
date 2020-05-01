@@ -12,8 +12,8 @@
             <td class="gap">&#160;</td>
             <td>
               <spacer size="15"></spacer>
-              <a class="link" href="#">
-                <span class="bullet">&#8226;</span>&#160;
+              <a class="link" href="http://www.example.com/">
+                <span class="bullet">&#8226; </span>&#160;
                 <span class="text">{{this}}</span>
               </a>
               <spacer size="15"></spacer>
@@ -24,21 +24,41 @@
     {{/each}}
   </wrapper>
   <spacer size="30"></spacer>
+
+  <!-- social_icons begin -->
   <wrapper class="social_icons">
-    <table class="grid">
+    <table class="grid" cellspacing="0" cellpadding="0" style="mso-hide:all;">
       <tr>
         <td class="f_column" valign='middle'>
-          <a href="#">
-            <img class="facebook float-center small-float-left" src="{{global.facebook}}" alt="facebook">
-          </a>
+          <div><!--[if mso]>
+  <v:rect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="https://ru-ru.facebook.com/" style="height:107px;v-text-anchor:middle;width:100%;" stroke="f" fillcolor="#318dff">
+    <w:anchorlock/>
+    <center><img class="facebook" src="{{global.facebook}}" alt="facebook"></center>
+  <![endif]-->
+      <a href="https://ru-ru.facebook.com/"
+style="background-color:#318dff;color:#fefefe;display:inline-block;font-family:sans-serif;font-size:13px;font-weight:bold;line-height:107px;text-align:center;text-decoration:none;width:100%;-webkit-text-size-adjust:none;">  <img class="facebook" src="{{global.facebook}}" alt="facebook"></a>
+  <!--[if mso]>
+    </center>
+  </v:rect>
+<![endif]--></div>
         </td>
         <td class="gap">&#160;</td>
         <td class="s_column">
-          <a href="#">
-            <img class="twitter float-center small-float-left" src="{{global.twitter}}" alt="twitter">
-          </a>
+          <div><!--[if mso]>
+  <v:rect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="https://ru-ru.facebook.com/" style="height:107px;v-text-anchor:middle;width:100%;" stroke="f" fillcolor="#00c0ff">
+    <w:anchorlock/>
+    <center><img class="twitter" src="{{global.twitter}}" alt="twitter"></center>
+  <![endif]-->
+      <a href="https://ru-ru.facebook.com/"
+style="background-color:#00c0ff;color:#fefefe;display:inline-block;font-family:sans-serif;font-size:13px;font-weight:bold;line-height:107px;text-align:center;text-decoration:none;width:100%;-webkit-text-size-adjust:none;">  <img class="twitter" src="{{global.twitter}}" alt="twitter"></a>
+  <!--[if mso]>
+    </center>
+  </v:rect>
+<![endif]--></div>
         </td>
       </tr>
     </table>
   </wrapper>
+  <!-- social_icons end -->
+
 </columns>
